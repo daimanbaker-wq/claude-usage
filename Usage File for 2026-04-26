@@ -4,59 +4,51 @@ Generated: 2026-04-26
 
 TODAY'S USAGE (2026-04-26)
 ------------------------------------------------------------
-Model                           Turns  Input     Output    Cost
-claude-sonnet-4-6               3      5         408       $0.1050
+  claude-sonnet-4-6               turns=41    in=63        out=22.4K     cost=$1.1950
 ------------------------------------------------------------
-TOTAL                           3      5         408       $0.1050
+  TOTAL                           turns=41    in=63        out=22.4K     cost=$1.1950
 
-Sessions today:   1
-Cache read:       27.1K  (90% cheaper than input)
-Cache creation:   24.2K  (25% premium on input)
-
+  Sessions today:   4
+  Cache read:       1.46M
+  Cache creation:   112.6K
 ------------------------------------------------------------
 
 WEEKLY USAGE (2026-04-20 to 2026-04-26)
 ------------------------------------------------------------
-By Day:
-  2026-04-20  turns=0    in=0       out=0       cost=$0.0000
-  2026-04-21  turns=0    in=0       out=0       cost=$0.0000
-  2026-04-22  turns=0    in=0       out=0       cost=$0.0000
-  2026-04-23  turns=0    in=0       out=0       cost=$0.0000
-  2026-04-24  turns=0    in=0       out=0       cost=$0.0000
-  2026-04-25  turns=0    in=0       out=0       cost=$0.0000
-  2026-04-26  turns=3    in=5       out=408     cost=$0.1050
-
-By Model:
-  claude-sonnet-4-6               turns=3    in=5       out=408     cost=$0.1050
+  By Day:
+    2026-04-20  turns=0     in=0         out=0         cost=$0.0000
+    2026-04-21  turns=0     in=0         out=0         cost=$0.0000
+    2026-04-22  turns=0     in=0         out=0         cost=$0.0000
+    2026-04-23  turns=0     in=0         out=0         cost=$0.0000
+    2026-04-24  turns=0     in=0         out=0         cost=$0.0000
+    2026-04-25  turns=0     in=0         out=0         cost=$0.0000
+    2026-04-26  turns=41    in=63        out=22.4K     cost=$1.1950
+  By Model:
+    claude-sonnet-4-6               turns=41    in=63        out=22.4K     cost=$1.1950
 ------------------------------------------------------------
-TOTAL                             turns=3    in=5       out=408     cost=$0.1050
+    TOTAL                           turns=41    in=63        out=22.4K     cost=$1.1950
 
-Sessions this week:  1
-Cache read:          27.1K
-Cache creation:      24.2K
-
+  Sessions this week:  4
+  Cache read:          1.46M
+  Cache creation:      112.6K
 ------------------------------------------------------------
 
 ALL-TIME STATISTICS
 ============================================================
-Period:           2026-04-26 to 2026-04-26
-Total sessions:   1
-Total turns:      3
+  Period:           2026-04-26 to 2026-04-26
+  Total sessions:   4
+  Total turns:      41
 
-Input tokens:     5             (raw prompt tokens)
-Output tokens:    408           (generated tokens)
-Cache read:       27.1K         (90% cheaper than input)
-Cache creation:   24.2K         (25% premium on input)
+  Input tokens:     63            (raw prompt tokens)
+  Output tokens:    22.4K         (generated tokens)
+  Cache read:       1.46M         (90% cheaper than input)
+  Cache creation:   112.6K        (25% premium on input)
 
-Est. total cost:  $0.1050
-
-By Model:
-  claude-sonnet-4-6    sessions=1  turns=3  in=5  out=408  cost=$0.1050
-
-Top Projects:
-  user/claude-usage    sessions=1  turns=3  tokens=413
-
-Daily Average (last 30 days):
-  Input:   5
-  Output:  408
+  Est. total cost:  $1.1950
+------------------------------------------------------------
+  By Model:
+    claude-sonnet-4-6               sessions=4     turns=41      in=63        out=22.4K     cost=$1.1950
+------------------------------------------------------------
+  Top Projects:
+    user/claude-usage                         sessions=4    turns=41      tokens=22.4K
 ============================================================
