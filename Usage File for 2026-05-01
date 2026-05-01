@@ -1,0 +1,56 @@
+Claude Code Usage Report — 2026-05-01
+======================================
+
+All-Time Statistics
+-------------------
+Period:           2026-05-01 to 2026-05-01
+Total sessions:   1
+Total turns:      3
+
+Input tokens:     5              (raw prompt tokens)
+Output tokens:    453            (generated tokens)
+Cache read:       28,500         (90% cheaper than input)
+Cache creation:   22,700         (25% premium on input)
+
+Est. total cost:  $0.1004
+
+By Model:
+  claude-sonnet-4-6    sessions=1   turns=3   in=5   out=453   cost=$0.1004
+
+Top Projects:
+  user/claude-usage    sessions=1   turns=3   tokens=458
+
+
+Weekly Usage (2026-04-25 to 2026-05-01)
+-----------------------------------------
+By Day:
+  2026-04-25  turns=0   in=0   out=0    cost=$0.0000
+  2026-04-26  turns=0   in=0   out=0    cost=$0.0000
+  2026-04-27  turns=0   in=0   out=0    cost=$0.0000
+  2026-04-28  turns=0   in=0   out=0    cost=$0.0000
+  2026-04-29  turns=0   in=0   out=0    cost=$0.0000
+  2026-04-30  turns=0   in=0   out=0    cost=$0.0000
+  2026-05-01  turns=3   in=5   out=453  cost=$0.1004
+
+By Model:
+  claude-sonnet-4-6    turns=3   in=5   out=453   cost=$0.1004
+
+TOTAL                  turns=3   in=5   out=453   cost=$0.1004
+Sessions this week:  1
+Cache read:          28,500
+Cache creation:      22,700
+
+
+Today's Usage (2026-05-01)
+---------------------------
+  claude-sonnet-4-6    turns=3   in=5   out=453   cost=$0.1004
+
+TOTAL                  turns=3   in=5   out=453   cost=$0.1004
+Sessions today:   1
+Cache read:       28,500
+Cache creation:   22,700
+
+
+Daily Average (last 30 days):
+  Input:   5
+  Output:  453
