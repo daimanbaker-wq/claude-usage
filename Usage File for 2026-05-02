@@ -1,0 +1,58 @@
+Claude Code Usage Report — 2026-05-02
+======================================================================
+
+TODAY'S USAGE (2026-05-02)
+------------------------------------------------------------
+  claude-sonnet-4-6    turns=3    in=5    out=497    cost=$0.1011
+------------------------------------------------------------
+  TOTAL                turns=3    in=5    out=497    cost=$0.1011
+
+  Sessions today:   1
+  Cache read:       28.5K
+  Cache creation:   22.7K
+
+
+WEEKLY USAGE (2026-04-26 to 2026-05-02)
+------------------------------------------------------------
+  By Day:
+    2026-04-26  turns=0    in=0    out=0    cost=$0.0000
+    2026-04-27  turns=0    in=0    out=0    cost=$0.0000
+    2026-04-28  turns=0    in=0    out=0    cost=$0.0000
+    2026-04-29  turns=0    in=0    out=0    cost=$0.0000
+    2026-04-30  turns=0    in=0    out=0    cost=$0.0000
+    2026-05-01  turns=0    in=0    out=0    cost=$0.0000
+    2026-05-02  turns=3    in=5    out=497  cost=$0.1011
+  ------------------------------------------------------------
+  By Model:
+    claude-sonnet-4-6    turns=3    in=5    out=497    cost=$0.1011
+  ------------------------------------------------------------
+  TOTAL                  turns=3    in=5    out=497    cost=$0.1011
+
+  Sessions this week:  1
+  Cache read:          28.5K
+  Cache creation:      22.7K
+
+
+ALL-TIME STATISTICS
+======================================================================
+  Period:           2026-05-02 to 2026-05-02
+  Total sessions:   1
+  Total turns:      3
+
+  Input tokens:     5             (raw prompt tokens)
+  Output tokens:    497           (generated tokens)
+  Cache read:       28.5K         (90% cheaper than input)
+  Cache creation:   22.7K         (25% premium on input)
+
+  Est. total cost:  $0.1011
+
+  By Model:
+    claude-sonnet-4-6    sessions=1    turns=3    in=5    out=497    cost=$0.1011
+
+  Top Projects:
+    user/claude-usage    sessions=1    turns=3    tokens=502
+
+  Daily Average (last 30 days):
+    Input:   5
+    Output:  497
+======================================================================
