@@ -1,0 +1,62 @@
+Claude Code Usage Report
+Generated: 2026-05-03
+============================================================
+
+TODAY'S USAGE (2026-05-03)
+------------------------------------------------------------
+Model                           Turns  Input    Output   Est. Cost
+claude-sonnet-4-6               3      5        405      $0.0982
+------------------------------------------------------------
+TOTAL                           3      5        405      $0.0982
+
+Sessions today:   1
+Cache read:       28.1K  (tokens served from prompt cache)
+Cache creation:   22.3K  (tokens written to prompt cache)
+
+WEEKLY USAGE (2026-04-27 to 2026-05-03)
+------------------------------------------------------------
+By Day:
+  2026-04-27  turns=0   in=0    out=0    cost=$0.0000
+  2026-04-28  turns=0   in=0    out=0    cost=$0.0000
+  2026-04-29  turns=0   in=0    out=0    cost=$0.0000
+  2026-04-30  turns=0   in=0    out=0    cost=$0.0000
+  2026-05-01  turns=0   in=0    out=0    cost=$0.0000
+  2026-05-02  turns=0   in=0    out=0    cost=$0.0000
+  2026-05-03  turns=3   in=5    out=405  cost=$0.0982
+
+By Model:
+  claude-sonnet-4-6               turns=3   in=5    out=405  cost=$0.0982
+------------------------------------------------------------
+TOTAL                             turns=3   in=5    out=405  cost=$0.0982
+
+Sessions this week:  1
+Cache read:          28.1K
+Cache creation:      22.3K
+
+ALL-TIME STATISTICS
+============================================================
+Period:           2026-05-03 to 2026-05-03
+Total sessions:   1
+Total turns:      3
+
+Input tokens:     5             (raw prompt tokens)
+Output tokens:    405           (generated tokens)
+Cache read:       28.1K         (90% cheaper than input)
+Cache creation:   22.3K         (25% premium on input)
+
+Est. total cost:  $0.0982
+
+By Model:
+  claude-sonnet-4-6   sessions=1  turns=3  in=5  out=405  cost=$0.0982
+
+Top Projects:
+  user/claude-usage               sessions=1  turns=3  tokens=410
+
+Daily Average (last 30 days):
+  Input:   5
+  Output:  405
+============================================================
+
+Pricing reference (Anthropic API, April 2026):
+  claude-sonnet-4-6: $3.00/MTok input, $15.00/MTok output,
+                     $3.75/MTok cache write, $0.30/MTok cache read
