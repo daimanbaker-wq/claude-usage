@@ -1,0 +1,62 @@
+Claude Code Usage Report - 2026-05-04
+Generated: 2026-05-04
+============================================================
+
+TODAY'S USAGE (2026-05-04)
+------------------------------------------------------------
+Model                           Turns  Input     Output    Cost
+claude-sonnet-4-6               3      5         528       $0.1067
+------------------------------------------------------------
+TOTAL                           3      5         528       $0.1067
+
+Sessions today:    1
+Cache read:        27.0K
+Cache creation:    24.2K
+
+------------------------------------------------------------
+
+WEEKLY USAGE (2026-04-28 to 2026-05-04)
+------------------------------------------------------------
+By Day:
+  2026-04-28  turns=0   in=0        out=0        cost=$0.0000
+  2026-04-29  turns=0   in=0        out=0        cost=$0.0000
+  2026-04-30  turns=0   in=0        out=0        cost=$0.0000
+  2026-05-01  turns=0   in=0        out=0        cost=$0.0000
+  2026-05-02  turns=0   in=0        out=0        cost=$0.0000
+  2026-05-03  turns=0   in=0        out=0        cost=$0.0000
+  2026-05-04  turns=3   in=5        out=528      cost=$0.1067
+
+By Model:
+  claude-sonnet-4-6               turns=3   in=5        out=528      cost=$0.1067
+------------------------------------------------------------
+TOTAL                             turns=3   in=5        out=528      cost=$0.1067
+
+Sessions this week:  1
+Cache read:          27.0K
+Cache creation:      24.2K
+
+------------------------------------------------------------
+
+ALL-TIME STATISTICS
+============================================================
+Period:           2026-05-04 to 2026-05-04
+Total sessions:   1
+Total turns:      3
+
+Input tokens:     5             (raw prompt tokens)
+Output tokens:    528           (generated tokens)
+Cache read:       27.0K         (90% cheaper than input)
+Cache creation:   24.2K         (25% premium on input)
+
+Est. total cost:  $0.1067
+
+By Model:
+  claude-sonnet-4-6   sessions=1  turns=3  in=5  out=528  cost=$0.1067
+
+Top Projects:
+  user/claude-usage               sessions=1  turns=3  tokens=533
+
+Daily Average (last 30 days):
+  Input:   5
+  Output:  528
+============================================================
