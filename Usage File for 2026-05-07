@@ -1,73 +1,127 @@
-Claude API Usage Report - 2026-05-07
-=====================================
+Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=Claude API Usage Report — 2026-05-07
+=
 
-Generated: 2026-05-07
-Recipient: mydbhc@gmail.com
-
-------------------------------------------------------------
-TODAY'S USAGE (2026-05-07)
-------------------------------------------------------------
-Model: claude-sonnet-4-6
-  Turns:          18
-  Input tokens:   24
-  Output tokens:  6.1K
-  Cost:           $0.4271
-
-TOTAL:
-  Turns:          18
-  Input tokens:   24
-  Output tokens:  6.1K
-  Est. Cost:      $0.4271
-
-  Sessions today:   3
-  Cache read:       395.4K  (tokens served from prompt cache)
-  Cache creation:   58.0K   (tokens written to prompt cache)
-
-------------------------------------------------------------
-WEEKLY USAGE (2026-05-01 to 2026-05-07)
-------------------------------------------------------------
-By Day:
-  2026-05-01  turns=0   in=0    out=0      cost=$0.0000
-  2026-05-02  turns=0   in=0    out=0      cost=$0.0000
-  2026-05-03  turns=0   in=0    out=0      cost=$0.0000
-  2026-05-04  turns=0   in=0    out=0      cost=$0.0000
-  2026-05-05  turns=0   in=0    out=0      cost=$0.0000
-  2026-05-06  turns=0   in=0    out=0      cost=$0.0000
-  2026-05-07  turns=18  in=24   out=6.1K   cost=$0.4271
-
-By Model:
-  claude-sonnet-4-6  turns=18  in=24  out=6.1K  cost=$0.4271
-
-  Sessions this week:  3
-  Cache read:          395.4K
-  Cache creation:      58.0K
-
-------------------------------------------------------------
-ALL-TIME STATISTICS
-------------------------------------------------------------
-Period:           2026-05-07 to 2026-05-07
-Total sessions:   3
-Total turns:      18
-
-Token Breakdown:
-  Input tokens:     24         (raw prompt tokens)
-  Output tokens:    6.1K       (generated tokens)
-  Cache read:       395.4K     (90% cheaper than input)
-  Cache creation:   58.0K      (25% premium on input)
-
-Est. total cost:  $0.4271
-
-By Model:
-  claude-sonnet-4-6  sessions=3  turns=18  in=24  out=6.1K  cost=$0.4271
-
-Top Projects:
-  user/claude-usage  sessions=3  turns=18  tokens=6.1K
-
-Daily Average (last 30 days):
-  Input:   24
-  Output:  6.1K
+TODAY
 
 ------------------------------------------------------------
-Cost Reference (Anthropic API Pricing - April 2026):
-  claude-sonnet-4-6: $3.00/MTok input | $15.00/MTok output | $3.75/MTok cache write | $0.30/MTok cache read
+  Today's Usage  (2026-05-07)
 ------------------------------------------------------------
+  claude-sonnet-4-6               turns=29    in=38        out=8.6K      cost=$0.6074
+------------------------------------------------------------
+  TOTAL                           turns=29    in=38        out=8.6K      cost=$0.6074
+
+  Sessions today:   4
+  Cache read:       756.7K
+  Cache creation:   66.8K
+------------------------------------------------------------
+
+LAST 7 DAYS
+
+------------------------------------------------------------
+  Weekly Usage  (2026-05-01 to 2026-05-07)
+------------------------------------------------------------
+  By Day:
+    2026-05-01  turns=0     in=0         out=0         cost=$0.0000
+    2026-05-02  turns=0     in=0         out=0         cost=$0.0000
+    2026-05-03  turns=0     in=0         out=0         cost=$0.0000
+    2026-05-04  turns=0     in=0         out=0         cost=$0.0000
+    2026-05-05  turns=0     in=0         out=0         cost=$0.0000
+    2026-05-06  turns=0     in=0         out=0         cost=$0.0000
+    2026-05-07  turns=29    in=38        out=8.6K      cost=$0.6074
+------------------------------------------------------------
+  By Model:
+    claude-sonnet-4-6               turns=29    in=38        out=8.6K      cost=$0.6074
+------------------------------------------------------------
+    TOTAL                           turns=29    in=38        out=8.6K      cost=$0.6074
+
+  Sessions this week:  4
+  Cache read:          756.7K
+  Cache creation:      66.8K
+------------------------------------------------------------
+
+ALL-TIME STATS
+
+============================================================
+  Claude Code Usage - All-Time Statistics
+============================================================
+  Period:           2026-05-07 to 2026-05-07
+  Total sessions:   4
+  Total turns:      29
+
+  Input tokens:     38            (raw prompt tokens)
+  Output tokens:    8.6K          (generated tokens)
+  Cache read:       756.7K        (90% cheaper than input)
+  Cache creation:   66.8K         (25% premium on input)
+
+  Est. total cost:  $0.6074
+------------------------------------------------------------
+  By Model:
+    claude-sonnet-4-6               sessions=4     turns=29      in=38        out=8.6K      cost=$0.6074
+------------------------------------------------------------
+  Top Projects:
+    user/claude-usage                         sessions=4    turns=29      tokens=8.7K
+------------------------------------------------------------
+  Daily Average (last 30 days):
+    Input:   38
+    Output:  8.6K
+============================================================
+
