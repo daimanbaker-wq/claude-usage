@@ -5,6 +5,7 @@ Reads credentials from .env (GMAIL_USER, GMAIL_APP_PASSWORD) or environment.
 """
 
 import os
+import socket
 import smtplib
 import ssl
 from datetime import date
@@ -52,10 +53,13 @@ def send_report(report_text: str, to_addr: str, report_date: str = None):
     msg["To"] = to_addr
     msg.attach(MIMEText(report_text, "plain"))
 
+    # Resolve to IPv4 explicitly — IPv6 is not available in this environment
+    ipv4 = socket.getaddrinfo("smtp.gmail.com", 587, socket.AF_INET)[0][4][0]
     context = ssl.create_default_context()
-    with smtplib.SMTP("smtp.gmail.com", 587) as server:
-        server.ehlo()
+    with smtplib.SMTP(ipv4, 587) as server:
+        server.ehlo("smtp.gmail.com")
         server.starttls(context=context)
+        server.ehlo("smtp.gmail.com")
         server.login(from_addr, app_password)
         server.sendmail(from_addr, to_addr, msg.as_string())
 
