@@ -2,15 +2,17 @@
 daily_report.py - Scan usage, write a dated file, and email the report.
 
 Usage:
-    python3 daily_report.py
-    python3 daily_report.py --to mydbhc@gmail.com
-    python3 daily_report.py --no-email       # write file only
+    python3 daily_report.py                     # scan + write file + email
+    python3 daily_report.py --no-email          # scan + write file only
+    python3 daily_report.py --send-only         # email existing file (no scan needed)
+    python3 daily_report.py --to addr@example.com
+    python3 daily_report.py --date 2026-05-07   # override date (used with --send-only)
 """
 
 import io
 import sys
 import contextlib
-from datetime import date, timedelta
+from datetime import date
 from pathlib import Path
 
 
@@ -28,7 +30,6 @@ def build_report(report_date: str) -> str:
     import cli
     from scanner import scan
 
-    # Always scan first so data is fresh
     scan()
 
     today_text = capture(cli.cmd_today)
@@ -51,18 +52,41 @@ def write_usage_file(report_text: str, report_date: str) -> Path:
     return filename
 
 
+def read_usage_file(report_date: str) -> str:
+    filename = Path(__file__).parent / f"Usage File for {report_date}"
+    if not filename.exists():
+        raise FileNotFoundError(
+            f"No usage file found for {report_date}.\n"
+            f"Expected: {filename}\n"
+            f"Run without --send-only to generate it first."
+        )
+    return filename.read_text()
+
+
+def parse_arg(args, flag):
+    for i, arg in enumerate(args):
+        if arg == flag and i + 1 < len(args):
+            return args[i + 1]
+    return None
+
+
 def main():
-    send_email = "--no-email" not in sys.argv
-    to_addr = TO_ADDRESS
-    for i, arg in enumerate(sys.argv):
-        if arg == "--to" and i + 1 < len(sys.argv):
-            to_addr = sys.argv[i + 1]
+    args = sys.argv[1:]
+    send_only = "--send-only" in args
+    send_email = "--no-email" not in args
+    to_addr = parse_arg(args, "--to") or TO_ADDRESS
+    report_date = parse_arg(args, "--date") or date.today().isoformat()
 
-    report_date = date.today().isoformat()
-    print(f"\nGenerating Claude usage report for {report_date} ...")
+    print(f"\nClaude usage report for {report_date} ...")
 
-    report_text = build_report(report_date)
-    write_usage_file(report_text, report_date)
+    if send_only:
+        # Just read the existing file and email it — no scanning required.
+        # Useful when running from a machine that doesn't have the JSONL data.
+        print("  Mode: send-only (reading existing usage file from repo)")
+        report_text = read_usage_file(report_date)
+    else:
+        report_text = build_report(report_date)
+        write_usage_file(report_text, report_date)
 
     if send_email:
         from emailer import send_report
