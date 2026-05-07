@@ -8,64 +8,64 @@ Recipient: mydbhc@gmail.com
 TODAY'S USAGE (2026-05-07)
 ------------------------------------------------------------
 Model: claude-sonnet-4-6
-  Turns:          3
-  Input tokens:   5
-  Output tokens:  524
-  Cost:           $0.1025
+  Turns:          18
+  Input tokens:   24
+  Output tokens:  6.1K
+  Cost:           $0.4271
 
 TOTAL:
-  Turns:          3
-  Input tokens:   5
-  Output tokens:  524
-  Est. Cost:      $0.1025
+  Turns:          18
+  Input tokens:   24
+  Output tokens:  6.1K
+  Est. Cost:      $0.4271
 
-  Sessions today:   1
-  Cache read:       28.9K  (tokens served from prompt cache)
-  Cache creation:   22.9K  (tokens written to prompt cache)
+  Sessions today:   3
+  Cache read:       395.4K  (tokens served from prompt cache)
+  Cache creation:   58.0K   (tokens written to prompt cache)
 
 ------------------------------------------------------------
 WEEKLY USAGE (2026-05-01 to 2026-05-07)
 ------------------------------------------------------------
 By Day:
-  2026-05-01  turns=0  in=0      out=0    cost=$0.0000
-  2026-05-02  turns=0  in=0      out=0    cost=$0.0000
-  2026-05-03  turns=0  in=0      out=0    cost=$0.0000
-  2026-05-04  turns=0  in=0      out=0    cost=$0.0000
-  2026-05-05  turns=0  in=0      out=0    cost=$0.0000
-  2026-05-06  turns=0  in=0      out=0    cost=$0.0000
-  2026-05-07  turns=3  in=5      out=524  cost=$0.1025
+  2026-05-01  turns=0   in=0    out=0      cost=$0.0000
+  2026-05-02  turns=0   in=0    out=0      cost=$0.0000
+  2026-05-03  turns=0   in=0    out=0      cost=$0.0000
+  2026-05-04  turns=0   in=0    out=0      cost=$0.0000
+  2026-05-05  turns=0   in=0    out=0      cost=$0.0000
+  2026-05-06  turns=0   in=0    out=0      cost=$0.0000
+  2026-05-07  turns=18  in=24   out=6.1K   cost=$0.4271
 
 By Model:
-  claude-sonnet-4-6  turns=3  in=5  out=524  cost=$0.1025
+  claude-sonnet-4-6  turns=18  in=24  out=6.1K  cost=$0.4271
 
-  Sessions this week:  1
-  Cache read:          28.9K
-  Cache creation:      22.9K
+  Sessions this week:  3
+  Cache read:          395.4K
+  Cache creation:      58.0K
 
 ------------------------------------------------------------
 ALL-TIME STATISTICS
 ------------------------------------------------------------
 Period:           2026-05-07 to 2026-05-07
-Total sessions:   1
-Total turns:      3
+Total sessions:   3
+Total turns:      18
 
 Token Breakdown:
-  Input tokens:     5          (raw prompt tokens)
-  Output tokens:    524        (generated tokens)
-  Cache read:       28.9K      (90% cheaper than input)
-  Cache creation:   22.9K      (25% premium on input)
+  Input tokens:     24         (raw prompt tokens)
+  Output tokens:    6.1K       (generated tokens)
+  Cache read:       395.4K     (90% cheaper than input)
+  Cache creation:   58.0K      (25% premium on input)
 
-Est. total cost:  $0.1025
+Est. total cost:  $0.4271
 
 By Model:
-  claude-sonnet-4-6  sessions=1  turns=3  in=5  out=524  cost=$0.1025
+  claude-sonnet-4-6  sessions=3  turns=18  in=24  out=6.1K  cost=$0.4271
 
 Top Projects:
-  user/claude-usage  sessions=1  turns=3  tokens=529
+  user/claude-usage  sessions=3  turns=18  tokens=6.1K
 
 Daily Average (last 30 days):
-  Input:   5
-  Output:  524
+  Input:   24
+  Output:  6.1K
 
 ------------------------------------------------------------
 Cost Reference (Anthropic API Pricing - April 2026):
