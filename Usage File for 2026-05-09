@@ -1,0 +1,57 @@
+Claude Code Usage Report
+Generated: 2026-05-09
+============================================================
+
+TODAY'S USAGE (2026-05-09)
+------------------------------------------------------------
+Model                           Turns  Input    Output   Cost
+claude-sonnet-4-6               3      5        484      $0.1020
+------------------------------------------------------------
+TOTAL                           3      5        484      $0.1020
+
+Sessions today:   1
+Cache read:       29.0K  (tokens served from prompt cache)
+Cache creation:   22.9K  (tokens written to prompt cache)
+
+WEEKLY USAGE (2026-05-03 to 2026-05-09)
+------------------------------------------------------------
+By Day:
+  2026-05-03  turns=0   in=0    out=0    cost=$0.0000
+  2026-05-04  turns=0   in=0    out=0    cost=$0.0000
+  2026-05-05  turns=0   in=0    out=0    cost=$0.0000
+  2026-05-06  turns=0   in=0    out=0    cost=$0.0000
+  2026-05-07  turns=0   in=0    out=0    cost=$0.0000
+  2026-05-08  turns=0   in=0    out=0    cost=$0.0000
+  2026-05-09  turns=3   in=5    out=484  cost=$0.1020
+
+By Model:
+  claude-sonnet-4-6               turns=3  in=5  out=484  cost=$0.1020
+  TOTAL                           turns=3  in=5  out=484  cost=$0.1020
+
+Sessions this week:  1
+Cache read:          29.0K
+Cache creation:      22.9K
+
+ALL-TIME STATISTICS
+============================================================
+Period:           2026-05-09 to 2026-05-09
+Total sessions:   1
+Total turns:      3
+
+Input tokens:     5             (raw prompt tokens)
+Output tokens:    484           (generated tokens)
+Cache read:       29.0K         (90% cheaper than input)
+Cache creation:   22.9K         (25% premium on input)
+
+Est. total cost:  $0.1020
+
+By Model:
+  claude-sonnet-4-6  sessions=1  turns=3  in=5  out=484  cost=$0.1020
+
+Top Projects:
+  user/claude-usage              sessions=1  turns=3  tokens=489
+
+Daily Average (last 30 days):
+  Input:   5
+  Output:  484
+============================================================
