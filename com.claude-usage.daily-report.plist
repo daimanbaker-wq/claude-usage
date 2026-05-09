@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.claude-usage.daily-report</string>
+
+    <!-- Replace /Users/YOUR_USERNAME with your actual home directory path -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/YOUR_USERNAME/claude-usage/send_daily_report.py</string>
+    </array>
+
+    <!-- Runs every day at 8:00 AM -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/YOUR_USERNAME/claude-usage/daily-report.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/YOUR_USERNAME/claude-usage/daily-report.log</string>
+
+    <!-- Run on next opportunity if the Mac was asleep at 8 AM -->
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
